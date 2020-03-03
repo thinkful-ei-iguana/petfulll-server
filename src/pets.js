@@ -1,6 +1,6 @@
-const queue = require('./queue');
+const Queue = require('./queue');
 
-let cats = new queue();
+let cats = new Queue();
 cats.enqueue({
   imageURL:
     'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg',
@@ -135,7 +135,7 @@ function reloadCats() {
   });
 }
 
-let dogs = new queue();
+let dogs = new Queue();
 dogs.enqueue({
   imageURL:
     'http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg',
