@@ -1,26 +1,19 @@
-# Express Boilerplate!
+# Petful built by Austin Tumlinson and Krystle Knoweski
+Petful is an app that allows users to adopt a pet. Upon start you will be placed in line while those ahead of you can adopt a pet out of the currently available options, when its your turn you will have the choice to adopt a dog or cat.  You can see your place in line while you wait.
 
-This is a boilerplate project used for starting new projects!
+## Live App
 
-## How do set up?
+[Petful Live Site](https://krys-aust-petful.herokuapp.com/)<br/>
+[Client Repo](https://github.com/thinkful-ei-iguana/petfullll-client)<br/>
+[Server Repo](https://github.com/thinkful-ei-iguana/petfulll-server)<br/>
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+## Technologies Used
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+Front end - HTML | CSS/SASS | JS | REACT
+Back end - NODE | EXPRESS
 
-## Scripts
+## Screenshots
 
-Start the application `npm start`
+![Petful Home Page](https://github.com/thinkful-ei-iguana/petfullll-client/blob/master/src/Images/petful1.png?raw=true)
 
-Start nodemon for the application `npm run dev`
-
-Run the tests in watch mode `npm test`
-
-## Deploying
-
-When your new project is ready for deployment, add a new heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+![Petful Start Page](https://github.com/thinkful-ei-iguana/petfullll-client/blob/master/src/Images/petful2.png?raw=true)
